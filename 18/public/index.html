@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>JSON Server</title>
+    <style>
+        .btn {
+            border: 1px solid black;
+            padding: 3px;
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+        }
+        
+        .hide {
+            display: none
+        }
+        
+        form {
+            background-color: aliceblue;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Server AJAX testing</h1>
+    <div id="message"></div>
+    <div id="load1" class="btn hide">load 1</div>
+    <div id="send1" class="btn hide">Send 1</div>
+    <div id="pageInfo"></div>
+    <div id="prev" class="btn">Prev</div>
+    <div id="next" class="btn">Next</div>
+    <div id="output"></div>
+    <form id="myForm">
+        <input type="text" name="first" value="Jason">
+        <input type="text" name="last" value="Tester">
+        <input type="text" name="company" value="ACME">
+        <input type="submit" value="Send Data"> </form>
+    <br>
+    <input type="text" name="search">
+    <button class='btn' id="search">Search</button>
+    <br>
+    <textarea id="comments"></textarea>
+    <button class="btn" id="addComment">Add Comment</button>
+    <br>
+    <script src="js/script.js"></script>
+</body>
+</html>
