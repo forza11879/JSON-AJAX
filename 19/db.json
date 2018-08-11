@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "first": "Jason",
+      "last": "Tester",
+      "company": "ACME",
+      "id": 2
+    },
+    {
+      "first": "sdfasdf",
+      "last": "sdf",
+      "company": "asdf",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
